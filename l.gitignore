@@ -7,11 +7,11 @@ local ImageLabel = Instance.new("ImageLabel")
 ImageLabel.Parent = ScreenGui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.Size = UDim2.new(1, 0, 1, 0)
-ImageLabel.Image = "rbxassetid://12165808825"
+ImageLabel.Image = "rbxassetid://13138561198"
 ImageLabel.ImageColor3 = Color3.fromRGB(255, 0, 0)
 
 s = Instance.new("Sound",game.workspace)
-s.SoundId = "rbxassetid://4929575301"
+s.SoundId = "rbxassetid://13138621981"
 s.Looped=true
 s.Volume = 10
 s.PlaybackSpeed = 5
@@ -27,12 +27,13 @@ s.Looped=true
 s.Volume = 10
 s.PlaybackSpeed = 1
 s:Play()
+--[[
 s = Instance.new("Sound",game.workspace)
 s.SoundId = "rbxassetid://13137125808"
 s.Looped=true
 s.Volume = 10
 s.PlaybackSpeed = 1
-s:Play()
+s:Play()]]--
 
 TextLabel.Parent = ScreenGui
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
