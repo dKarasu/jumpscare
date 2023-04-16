@@ -1,0 +1,20 @@
+local p = game:GetService("Players").LocalPlayer
+local count = 5
+while true do wait(count)
+    local x = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame.X
+    local Z = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame.Z
+    count = count/1.01
+    local a =Instance.new("Part",game.Workspace)
+    a.Name = "z主播唢呐没法愉悦送走你吗"
+    a.CFrame = CFrame.new(math.random(x-25,x+25),200,math.random(Z-25,Z+25))
+    if count <= 0.0001  then
+        while true do 
+            local x = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame.X
+            local Z = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame.Z
+            count = count/1.1
+            local a =Instance.new("Part",game.Workspace)
+            a.Name = "z主播唢呐没法愉悦送走你吗"
+            a.CFrame = CFrame.new(math.random(x-25,x+25),200,math.random(Z-25,Z+25))
+        end
+    end
+end
